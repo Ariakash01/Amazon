@@ -1,0 +1,164 @@
+.header{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+   background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    position: relative;
+border: 1px solid;
+gap: 1rem;
+}
+.Dropdown{
+    
+    background-color: rgb(146, 167, 161);
+    border-radius: 1rem;
+    margin: 0.4rem;
+}
+.Dropdown .Image{
+   
+    border-radius: 50%;
+}
+.header_logo{
+    width: 6rem;
+    height: 3rem;
+   
+    
+    object-fit: contain;
+   margin: 0.8rem 0.5rem 0;
+}
+.search_icon{
+ width: 1.8rem;
+ height: 1.8rem;
+ padding: 0.4rem;
+ background-color: #fcd260;
+    border-radius: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+.header_search{
+    border: 1px solid;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 0.12rem;
+    border-radius: 0.5rem;
+    width: 48%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header_nav{
+    
+    display: flex;
+    gap: 2rem;
+    margin: 0.4rem 0 0.4rem 1rem;
+}
+.nav_opt{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+.ln1{
+    border: 1px solid;
+    font-size: 0.8rem;
+}
+.cart{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fdba77;
+    padding: 0.6rem;
+  text-decoration: none;
+    border-radius: 1rem;
+  
+}
+.basket{
+    background-color: white;
+width: 1.8rem;
+height: 2rem;
+padding: 0.1rem;
+    border-radius: 0.4rem;
+}
+.cart span{
+   color: black;
+}
+
+.user{
+    margin:0.4rem;
+
+    gap: 0.4rem;
+    color: #131921;
+    background: white;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.ors{
+    background-color: aliceblue;
+   border-radius: 0.8rem;
+   margin-bottom: 0.5rem;
+   
+}
+
+.link_rmv:link {
+    text-decoration: none;
+    color: black;
+}
+
+.link_rmv:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.link_rmv:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.link_rmv:active {
+    text-decoration: none;
+    color: black;
+}
+.log_in,.log_in:focus{
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    width: 6rem;
+    height: 2.3rem;
+    text-align: center;
+    background-color: #fcd260;
+    border-radius: 0.4rem;
+}
+.pri{
+    color: black;
+    background-color: azure;
+    height: 2.7rem;
+    width: 4rem;
+    border-radius: 0.4rem;
+   
+}
+.lin_rmv:link {
+    text-decoration: none;
+  
+}
+
+.lin_rmv:visited {
+    text-decoration: none;
+    
+}
+
+.lin_rmv:hover {
+    text-decoration: none;
+   
+}
+
+.lin_rmv:active {
+    text-decoration: none;
+    
+}

@@ -1,0 +1,157 @@
+.cart_pro{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   
+    position: relative;
+
+}
+.cart_home{
+  background-color: rgb(252, 243, 167);
+  min-height: 100vh;
+  
+ 
+}
+.cart_items{
+  margin: 1rem;
+}
+.ch{
+  max-width: 100vw;
+}
+.cart_left{
+    display: flex;
+    gap: 1rem;
+   
+    align-items: center;
+}
+.clc{
+
+  background: rgb(243, 204, 157);
+}
+.cart_img{
+    width: 18%;
+    height: 18%;
+    aspect-ratio: 1/1;
+   
+    border-radius: 0.7rem;
+}
+
+.count_cart{
+   
+   display: flex;
+   margin: 2rem;
+   gap: 1rem;
+  
+   align-items: center;
+  }
+  .decBtn_cart,.decBtn_cart:focus{
+    width: 2rem;
+  height: 2rem;  
+  border-radius: 0.6rem;
+    background-color: rgb(224, 145, 145);
+    outline: none;
+    border: none;
+  }
+  .incBtn_cart,.incBtn_cart:focus{
+    border-radius: 0.6rem;
+    outline: none;
+    border: none;
+    width: 2rem;
+    height: 2rem; 
+  
+    background-color: rgb(145, 230, 148);
+  }
+  .quantity_cart,.quantity_cart:focus{
+    width: 2rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 2rem;
+    border-radius: 0.4rem;
+  }
+  .cart_items{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+  .cartBtn_cart{
+    height: 3rem;
+    width: 20%;
+    background-color: rgb(237, 185, 40);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+  }
+  .del_btn,.dec_btn:focus{
+    border-radius: 0.5rem;
+    background: rgb(246, 153, 59);
+    padding-bottom: 0.2rem;
+    border: none;
+    outline: none;
+  }
+  .cl{
+    border: none;
+  
+  }
+
+.pn{
+  margin-top: 1rem;
+  color: rgb(31, 112, 233);
+}
+
+.about:link {
+  text-decoration: none;
+  color: black;
+}
+
+.about:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.about:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.about:active {
+  text-decoration: none;
+ 
+}
+  .cart_right{
+    position: fixed;
+    width: 30%;
+    right: 2rem;
+    top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+   
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .quantity,.total{
+    display: flex;
+    gap: 1rem;
+  }
+  .checkout_btn,.checkout_btn:focus{
+    
+    height: 3rem;
+    width: 30%;
+    background-color: rgb(237, 185, 40);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    
+  }

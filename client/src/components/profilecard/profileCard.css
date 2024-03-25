@@ -1,0 +1,117 @@
+.profilecard {
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    gap: 1.7rem;
+    overflow: clip;
+    background: var(--cardColor);
+    background-color: rgb(255, 247, 176);
+   min-height:100%;
+   
+}
+
+.proImg_cover {
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    border: 1px solid;
+    background-color: blue;
+}
+
+
+
+.profilenm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profilenm>span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.followstatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    
+}
+
+.followstatus>hr {
+    width: 80%;
+    border: 1px solid lightgray;
+}
+
+.followstatus>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 80%;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.follow>span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.follow>span:nth-of-type(2) {
+    color: var(--gray)
+}
+
+.vl {
+    height: 150%;
+    border-left: 2px solid var(--hrColor);
+}
+
+.profilenm>span {
+    font-weight: bold;
+    align-self: center;
+   
+    color: orange;
+    cursor: pointer;
+}
+
+.mycart {
+    width: 20%;
+
+}
+
+.pro_Btn {
+    width: 80%;
+
+    background: #f0c14b;
+    cursor: pointer;
+    border: none;
+    color: #111;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+}
+.chg_pass_btn{
+    background: #18fb86;
+}
+.pro_upd_Btn {
+    text-align: center;
+    width: 40%;
+    text-decoration-color: none;
+    background: #f0c14b;
+    cursor: pointer;
+    border: none;
+    color: #111;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+}

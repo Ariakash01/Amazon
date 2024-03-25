@@ -1,0 +1,156 @@
+.productDetail{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: rgb(232, 232, 173);
+ justify-content: center;
+ align-items: center;
+ border: 4px solid rgb(255, 0, 0);
+ min-width: 100vh;
+ 
+}
+.prodInfo{
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+
+  border: 4px solid rgb(0, 17, 255);
+}
+.buy{
+  display: flex;
+  
+}
+.det_pro_btn{
+  margin-top: 0.2rem;
+  background: #f0c14b;
+  cursor: pointer;
+  border: none;
+  color: #111;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  width: 40%;
+}
+
+
+.det_product{
+    margin: 0.5rem 0.4rem;
+    padding:0.5rem 1rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+height: max-content;
+    border-radius: 1rem;
+ 
+    border: 4px solid rgb(0, 255, 38);
+  }
+  .rating-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+    color: #fdcc0d;
+  }
+  
+  .rating-outer::before {
+    content: '\f006 \f006 \f006 \f006 \f006';
+  }
+  
+  .rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .rating-inner::before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    color: #f8ce0b;
+  }
+  .det_Img {
+    border-radius: 1rem;
+    width: 100%;
+    height:100%;
+    aspect-ratio: 1/1;
+  }
+  .count p{
+   margin-top: 0.6rem;
+  }
+  .rs strong,h3{
+    display: inline;
+  }
+  .det_Imgs{
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-top:5rem ;
+    margin-left: 2rem;
+    width: 50%;
+    height: 50%;
+    border: 1px solid;
+  }
+.cartBtn{
+    width: 30%;
+    margin-top: 0.2rem;
+    background: #f0c14b;
+    cursor: pointer;
+    border: none;
+    color: #111;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+   
+}
+.HomeProImg{
+    border: 1px solid;
+    
+    border-radius: 0.8rem;
+}
+.green{
+  color:green;
+}
+.red{
+  color: red;
+}
+
+.count{
+  border: 1px solid;
+ display: flex;
+ margin: 2rem;
+ gap: 1rem;
+
+ align-items: center;
+}
+.decBtn{
+  width: 2rem;
+height: 2rem;  
+border-radius: 0.5rem;
+  background-color: rgb(196, 136, 136);
+  outline: none;
+  border: none;
+  
+}
+
+.incBtn{
+  border-radius: 0.5rem;
+  width: 2rem;
+  height: 2rem; 
+outline: none;
+border: none;
+  background-color: rgb(123, 204, 126);
+}
+
+.bdr_rmv,.bdr_rmv:focus{
+  border: none;
+  outline: none;
+}
+.quantity{
+  padding: 0.3rem 1rem 0.1rem;
+ 
+ border-radius: 0.4rem;
+  border: none;
+  height: 2rem;
+  background-color: white;
+
+}

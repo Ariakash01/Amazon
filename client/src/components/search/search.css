@@ -1,0 +1,30 @@
+.inp_sub_btn {
+    border: none;
+    outline: none;
+    background-color:white;
+}
+
+.src_bn:focus {
+    border: none;
+    outline: none;
+}
+form .inputSearch{
+    display: flex;
+    
+}
+.inputSearch{
+    width: 100%;
+}
+.head_inp,.head_inp:focus{
+    height: 1.6rem;
+    width: 93%;
+    border: none;
+    outline: none;
+    padding-left: 0.5rem;
+    border-radius: 0.6rem;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+    margin-bottom: 0.1rem;
+    background-color: #f8ecac;
+}
+

@@ -1,0 +1,64 @@
+.greencolor{
+    color: green;
+}
+.redcolor{
+    color: red;
+}
+
+
+.final{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid;
+    padding: 1rem 1rem;
+    border: none;
+    background-color: rgb(250, 223, 189);
+    margin: 0.4rem;
+}
+.fin_addr{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    width: 50%;
+   position: relative;
+    padding: 1rem 1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(216, 224, 192);
+}
+.wrap{
+    overflow-wrap: break-word;
+}
+.fin_pro_detail{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid ;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(210, 219, 177);
+}
+.fin_ttl{
+    border: none;
+    padding: 0.4rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    width: max-content;
+    background-color: rgb(240, 239, 239);
+}
+.fin_submit{
+    height: 3rem;
+    width: max-content;
+    padding: 0 2rem;
+    margin-left: 6rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(150, 241, 211);
+    position: absolute;
+    bottom: 1rem;
+    right: 50%;
+  }
+  .fin_dtl{
+    display: flex;
+    gap: 3rem;
+  }
